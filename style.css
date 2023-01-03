@@ -1,0 +1,25 @@
+.green {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    transition: width 2s;
+}
+
+.blue button {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: none;
+    transition: width 2s;
+}
+
+
+.green:hover {
+    background-color: rgba(0, 128, 0, 0.293);
+    width: 1000px;
+}
+
+button:focus {
+    background-color: rgb(59, 144, 219);
+    width: 1000px;
+}
